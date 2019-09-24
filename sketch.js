@@ -47,7 +47,7 @@ function draw() {
   var c=0
   if(mouseIsPressed){c=100;};
   stroke(255,c);
-  strokeWeight(0.05);
+  strokeWeight(0.1);
   randomChord();
   randomChord();
   pop();
